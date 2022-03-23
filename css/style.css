@@ -95,12 +95,10 @@ body {
 .footer {
   width: 100%;
   height: 4rem;
-  background-color: var(--first-color);
-}
-.footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #f2f3f8;
 }
 .footer-content p {
   width: inherit;
@@ -147,6 +145,7 @@ main {
   width: 70%;
   height: 100%;
   display: flex;
+  justify-content: center;
 }
 .nav a {
   font-size: 0.9rem;
