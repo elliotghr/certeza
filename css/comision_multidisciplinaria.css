@@ -66,7 +66,7 @@ img {
   /* height: auto; */
 }
 li {
-  list-style-type: none;
+  /* list-style-type: none; */
 }
 p {
   margin: 0;
@@ -189,13 +189,14 @@ main {
 }
 .main-header {
   margin-top: 20%;
+  margin-bottom: 10%;
 }
 .main-header h1 {
   color: #144389;
   font-size: 2rem;
 }
 .main-header p {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
 }
 hr {
   width: 10%;
@@ -221,4 +222,11 @@ hr {
   border-right: 5px solid #144389;
   margin-right: 20px;
   padding-right: 20px;
+}
+.alcances{
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+ol li{
+  line-height: 2.5;
 }

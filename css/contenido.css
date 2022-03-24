@@ -108,6 +108,7 @@ body {
   background-color: var(--first-color);
 }
 .header-container {
+  min-width: 1100px;
   width: inherit;
   height: inherit;
   display: flex;
@@ -176,28 +177,28 @@ main {
 .buttons-contenido-container img {
   width: 5rem;
 }
-.button-contenido-indice{
+.button-contenido-indice {
   display: flex;
   position: absolute;
   left: 85%;
   top: 20%;
 }
-hr{
-  width: 80%;
-  margin: 2rem auto;
+hr {
+  width: 100%;
+  margin: 1rem auto;
   border-color: rgba(255, 255, 255, 0.356);
 }
 .button-contenido-indice img {
   width: 7rem;
 }
 .main-header {
+  min-width: 1100px;
   width: 100%;
   height: 400px;
   position: relative;
   background-image: url(/assets/CO-Certeza-images-Contenido/CM-RCerteza-Contenido_03.jpg);
   background-repeat: no-repeat;
   width: 100vw;
-
 }
 .section-content {
   width: 70%;
@@ -216,16 +217,17 @@ hr{
   justify-content: center;
 }
 
-.title{
+.title {
   width: 100%;
   height: 7rem;
   display: flex;
   align-items: center;
 }
 
-.title h1{
-  /* padding-left: 10%; */
+.title h1 {
+  padding-left: 7%;
   color: #144389;
+  font-size: 3rem;
 }
 
 .main-content {
@@ -235,6 +237,47 @@ hr{
   margin: 0 auto;
 }
 
-.section-content:last-child{
+.section-content:last-child {
   margin-bottom: 2rem;
+}
+.logo img {
+  width: 10rem;
+}
+
+.cero {
+  color: #283895;
+}
+
+.dos {
+  color: #283895;
+}
+.tres {
+  color: #A684A3;
+}
+.cuatro {
+  color: #636DB3;
+}
+.seis {
+  color: #38C0F0;
+}
+.siete {
+  color: #636DB3;
+}
+.ocho {
+  color: #38C0F0;
+}
+.nueve {
+  color: #B31E8C;
+}
+.diez {
+  color: #A684A3;
+}
+.once {
+  color: #59BA48;
+}
+.doce {
+  color: #832671;
+}
+.trece {
+  color: #0BB6AC;
 }

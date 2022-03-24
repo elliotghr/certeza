@@ -187,24 +187,38 @@ main {
   margin-bottom: 30px;
 }
 .main-header {
-  margin-top: 20%;
+  margin-top: 18%;
 }
 /* directorio */
-.main-header{
+.main-header {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
-
-hr{
-  margin: 2rem 50% 0;
-  width: 40%;
+.header-text {
+  font-size: 2rem;
+}
+.header-text h2{
+  text-align: right;
+  font-size: 2.5rem;
+}
+hr {
+  margin: 2rem 20% 0;
+  width: 80%;
   border: solid #144389;
 }
 
-.content{
+.content {
   display: grid;
-  grid-template-columns: repeat(1,50% 50%);
+  grid-template-columns: repeat(1, 50% 50%);
   gap: 20px;
+}
+.main-footer h2 {
+  border-bottom: solid #144389;
+  width: 15%;
+}
+
+.main-footer p {
+  line-height: 1;
 }

@@ -66,7 +66,7 @@ img {
   /* height: auto; */
 }
 li {
-  list-style-type: none;
+  /* list-style-type: none; */
 }
 p {
   margin: 0;
@@ -108,7 +108,6 @@ body {
   background-color: var(--first-color);
 }
 .header-container {
-  min-width: 1100px;
   width: inherit;
   height: inherit;
   display: flex;
@@ -117,7 +116,7 @@ body {
 .hero-image {
   width: 100%;
   height: 130vh;
-  background-image: url(/assets/CM-RCerteza-Landing_03.jpg);
+  background-image: url(/assets/CO-Certeza-images-Contenido/CM-RCerteza-Contenido_03.jpg);
   background-repeat: no-repeat;
   background-color: var(--first-color);
   background-position: 50% 20%;
@@ -126,7 +125,7 @@ body {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url(/assets/CM-RCerteza-Landing_03.jpg);
+  background-image: url(/assets/CO-Certeza-images-Contenido/CM-RCerteza-Contenido_03.jpg);
   background-repeat: no-repeat;
   background-position-x: 0%;
   background-position-y: top;
@@ -134,14 +133,12 @@ body {
 }
 main {
   flex-grow: 1;
-  /* background-image: url(/assets/CO-Certeza-images-Contenido/CM-RCerteza-Contenido_03.jpg); */
+  background-image: url(/assets/CO-Certeza-images-Contenido/CM-RCerteza-Contenido_03.jpg);
   background-repeat: no-repeat;
   background-size: 100% 400px;
 }
 .main-content {
-  width: 80%;
-  max-width: 1400px;
-  min-width: 1100px;
+  width: 90%;
   margin: 0 auto;
 }
 .nav {
@@ -173,80 +170,87 @@ main {
 .nav a:nth-child(5) {
   border-color: #a786a5;
 }
-/* directorio */
-.entrevista-header {
-  margin-top: -16%;
-  display: flex;
-  justify-content: space-between;
-  z-index: 10;
-  margin-bottom: 2rem;
-}
-.entrevista-header img{
-  height: 14rem;
-}
-.entrevista-nombre {
-  text-align: right;
-}
-.entrevista-nombre b {
-  font-size: 3rem;
-  color: #144389;
-}
-.entrevista-nombre p {
-  color: #144389;
-  font-size: 1.5rem;
-}
 .main-content {
   width: 80%;
+  max-width: 1100px;
+  min-width: 1000px;
   margin: 0 auto;
 }
-.pregunta {
-  margin-top: 3rem;
-  column-count: 2;
+.blue {
+  color: #144389;
 }
-.pregunta b {
-  font-size: 1.5rem;
-  color: #b977a9;
+.pink {
+  color: #a786a5;
 }
-.pregunta p {
-  font-size: 1.2rem;
-  text-align: justify;
+.margin {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+.margin-bottom {
+  margin-bottom: 20px;
+}
+.margin-top {
+  margin-top: 20px;
+}
+.main-header {
+  margin-top: 18%;
+}
+.main-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* ********* Style Site ********* */
 
-.entrevista-footer p {
-  text-align: center;
+/* directorio */
+.main-header h1 {
+  color: #144389;
   font-size: 2rem;
-  color: #b977a9;
-  width: 60%;
-  margin: 0 auto;
-  padding-bottom: 40px;
 }
-.entrevista-footer {
-  margin-bottom: 8rem;
+.main-header p {
+  font-size: 1.8rem;
 }
-
-.entrevista-content {
-  margin-bottom: 3rem;
+.hr-header {
+  margin-left: 80%;
+  width: 20%;
+  border: solid #144389;
 }
-b {
-  display: block;
-  margin: 1rem 0;
+.header-text {
+  font-size: 2rem;
+}
+.header-text h2 {
+  text-align: right;
+  font-size: 2.5rem;
+}
+.dos {
+  margin-top: 5%;
+}
+.header-dos p {
+  text-align: right;
+  font-size: 1.4rem;
+  line-height: 1;
+}
+.content {
+  margin-top: 10%;
+}
+.parrafos {
+  display: flex;
 }
 hr {
-  width: 15%;
-  border: solid #b977a9;
+  width: 20%;
+  border: solid #144389;
+  margin: 0 auto;
 }
-.hr-header{
-  margin-top: 3rem;
-  margin-right: 0;
+.equidad {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.main-footer h2 {
+  border-bottom: solid #144389;
+  width: 15%;
 }
 
-.main-header{
-  min-width: 1100px;
-  width: 100%;
-  height: 500px;
-  position: relative;
-  background-image: url(/assets/CO-Certeza-images-Contenido/CM-RCerteza-Contenido_03.jpg);
-  background-repeat: no-repeat;
-  width: 100vw;
-  z-index: -10;
+.main-footer p {
+  line-height: 1;
 }
