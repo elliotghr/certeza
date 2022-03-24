@@ -227,7 +227,7 @@ b {
 }
 hr {
   width: 15%;
-  border: 3px solid #b977a9;
+  border: solid #b977a9;
 }
 .hr-header{
   margin-top: 3rem;

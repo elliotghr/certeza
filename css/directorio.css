@@ -199,7 +199,7 @@ main {
 hr {
   width: 41%;
   margin: 2.5rem 0;
-  border: 4px solid #144389;
+  border: solid #144389;
 }
 .parrafo:nth-child(1){
   margin: 0;
