@@ -126,7 +126,7 @@ body {
 .hero-image {
   width: 100%;
   height: 130vh;
-  background-image: url(/assets/CM-RCerteza-Landing_03.jpg);
+  background-image: url(../assets/CO-Certeza-images-Presentacion/CM-RCerteza-Presentacion_01.jpg);
   background-repeat: no-repeat;
   background-color: var(--first-color);
   background-position: 50% 20%;
@@ -135,7 +135,7 @@ body {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url(/assets/CM-RCerteza-Landing_03.jpg);
+  background-image: url(../assets/CO-Certeza-images-Presentacion/CM-RCerteza-Presentacion_01.jpg);
   background-repeat: no-repeat;
   background-position-x: 0%;
   background-position-y: top;
@@ -143,7 +143,7 @@ body {
 }
 main {
   flex-grow: 1;
-  /* background-image: url(/assets/CO-Certeza-images-Contenido/CM-RCerteza-Contenido_03.jpg); */
+  /* background-image: url(./assets/CO-Certeza-images-Contenido/CM-RCerteza-Contenido_03.jpg); */
   /* background-repeat: no-repeat; */
   /* background-size: 100% 400px; */
 }
@@ -158,7 +158,7 @@ main {
   width: 100%;
   height: 450px;
   position: relative;
-  background-image: url(/assets/CO-Certeza-images-Contenido/CM-RCerteza-Contenido_03.jpg);
+  background-image: url(../assets/CO-Certeza-images-Contenido/CM-RCerteza-Contenido_03.jpg);
   background-repeat: no-repeat;
   z-index: -10;
 }
