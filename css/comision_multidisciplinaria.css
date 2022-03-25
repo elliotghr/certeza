@@ -171,8 +171,8 @@ main {
   min-width: 1000px;
   margin: 0 auto;
 }
-.main-content img{
-height: 200px;
+.main-content img {
+  height: 200px;
 }
 .blue {
   color: #144389;
@@ -218,35 +218,38 @@ hr {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  border-bottom: 5px solid #144389;
+  border-bottom: 5px solid #38c0f0;
   padding-bottom: 25px;
 }
 
 .corto-plazo {
-  border-right: 5px solid #144389;
+  border-right: 5px solid #38c0f0;
   margin-right: 20px;
   padding-right: 20px;
 }
-.alcances{
+.alcances {
   margin: 1rem 0;
   font-size: 1.5rem;
 }
-ol li{
+ol li {
   line-height: 2.5;
 }
-.imagenes{
+.imagenes {
   display: flex;
   margin-top: -230px;
   justify-content: space-between;
   align-items: center;
 }
-.hr-header{
+.hr-header {
   width: 30%;
 }
-.header-text{
+.header-text {
   font-size: 1.8rem;
 }
 
-.header-text h2{
+.header-text h2 {
   font-size: 2.5rem;
+}
+.blue-dos {
+  color: #38c0f0;
 }

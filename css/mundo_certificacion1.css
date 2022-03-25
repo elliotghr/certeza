@@ -233,9 +233,6 @@ hr {
   width: 30%;
   border: solid #38C0F0;
 }
-.estimados {
-  margin-top: 5rem;
-}
 .img-final {
   width: 80%;
   display: block;
@@ -257,4 +254,11 @@ hr {
 
 .parrafo-izquierda img{
   width: 120rem;
+}
+#img-izquierda{
+  width: 220rem;
+}
+.texto-blue p{
+  text-align: right;
+  line-height: 1;
 }
