@@ -22,7 +22,7 @@ html {
 
 body {
   margin: 0;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 a {
@@ -65,14 +65,22 @@ img {
   max-width: 100%;
   /* height: auto; */
 }
-li {
+ul {
+  list-style: inside;
+  padding-left:0;
+  /* list-style-type: none; */
+}
+ol {
+  list-style: inside;
+  padding-left: 0;
   /* list-style-type: none; */
 }
 p {
   margin: 0;
   padding: 0;
-  line-height: 1.6;
+  line-height: 1.4;
   font-family: var(--font);
+  text-align: justify;
 }
 
 /* ********* Components ********* */
@@ -201,7 +209,6 @@ main {
   background-image: url(../assets/CO-Certeza-images-Contenido/CM-RCerteza-Contenido_03.jpg);
   background-repeat: no-repeat;
   z-index: -10;
-
 }
 /* ********* Style Site ********* */
 
@@ -214,9 +221,11 @@ main {
   font-size: 1.8rem;
 }
 .hr-header {
-  margin-left: 80%;
-  width: 20%;
+  margin-left: 60%;
+  width: 40%;
   border: solid #144389;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .header-text {
   font-size: 2rem;
@@ -227,9 +236,8 @@ main {
 }
 .dos {
   margin-top: 5%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
   gap: 20px;
 }
 .header-dos p {
@@ -241,14 +249,15 @@ main {
   margin-top: 10%;
 }
 .parrafos {
-  display: flex;
+  display: grid;
+  grid-template-columns: 50% 50%;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
 hr {
   width: 20%;
-  border: solid #144389;
+  border: 2px solid #144389;
   margin: 0 auto;
 }
 .equidad {
@@ -263,15 +272,33 @@ hr {
 .main-footer p {
   line-height: 1;
 }
-.imagenes{
+.imagenes {
   display: flex;
-  margin-top: -230px;
+  margin-top: -180px;
   justify-content: space-between;
   align-items: center;
 }
-.imagenes img{
+.imagenes img {
   height: 12rem;
 }
-.dos img{
-  width: 50%;
+.dos img {
+  width: 100%;
+}
+.blue-tres {
+  color: #3b47b1;
+}
+.header-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-icon p {
+  font-size: 2rem;
+  color: #283895;
+}
+.header-icon img {
+  height: 10rem;
+}
+.izquierda img{
+  margin-bottom: 2rem;
 }
