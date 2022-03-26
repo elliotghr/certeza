@@ -226,9 +226,10 @@ main {
   font-size: 1.8rem;
 }
 .hr-header {
-  margin-left: 80%;
-  width: 20%;
-  border: solid #5abb49;
+  margin-left: 70%;
+  width: 30%;
+  border: solid #B31E8C;
+  margin-top: 1rem;
 }
 .header-text {
   font-size: 2rem;
@@ -236,9 +237,6 @@ main {
 .header-text h2 {
   text-align: right;
   font-size: 2.5rem;
-}
-.header-text p {
-  text-align: right;
 }
 .dos {
   margin-top: 5%;
@@ -262,8 +260,8 @@ main {
   gap: 20px;
 }
 hr {
-  width: 20%;
-  border: solid #5abb49;
+  width: 60%;
+  border: 2px solid #B31E8C;
   margin: 0 auto;
 }
 .equidad {
@@ -296,9 +294,18 @@ hr {
   align-items: center;
 }
 .header-icon p {
+  text-align: right;
   font-size: 2rem;
-  color: #5abb49;
+  color: #B31E8C;
 }
 .header-icon img {
   height: 10rem;
+}
+
+.primera-imagen{
+  margin-top: 2rem;
+}
+
+.hr-ultimo{
+  margin-bottom: 2rem;
 }
