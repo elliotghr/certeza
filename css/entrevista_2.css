@@ -142,9 +142,6 @@ body {
 }
 main {
   flex-grow: 1;
-  /* background-image: url(../assets/CO-Certeza-images-Contenido/CM-RCerteza-Contenido_03.jpg); */
-  background-repeat: no-repeat;
-  background-size: 100% 400px;
 }
 .main-content {
   width: 80%;
@@ -153,6 +150,7 @@ main {
   margin: 0 auto;
 }
 .nav {
+  padding-top: 3rem;
   width: 70%;
   height: 100%;
   display: flex;

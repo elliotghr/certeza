@@ -137,6 +137,7 @@ main {
   margin: 0 auto;
 }
 .nav {
+  padding-top: 3rem;
   width: 70%;
   height: 100%;
   display: flex;
@@ -176,10 +177,9 @@ main {
 
 .main-header {
   min-width: 1100px;
-  height: 400px;
+  height: 450px;
   background-image: url(../assets/CO-Certeza-images-Contenido/CM-RCerteza-Contenido_03.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 400px;
 }
 .main-content p:nth-child(2),
 .main-content p:nth-child(3) {

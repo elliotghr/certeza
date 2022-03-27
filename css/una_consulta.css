@@ -148,6 +148,7 @@ main {
   margin: 0 auto;
 }
 .nav {
+  padding-top: 3rem;
   width: 70%;
   height: 100%;
   display: flex;
