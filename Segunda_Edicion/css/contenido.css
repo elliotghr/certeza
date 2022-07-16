@@ -67,13 +67,13 @@ img {
 }
 ul {
   list-style: inside;
-  padding-left:0;
+  padding-left: 0;
   list-style-type: none;
 }
 p {
   margin: 0;
   padding: 0;
-  line-height: 1.6;
+  line-height: 1.2;
   font-family: var(--font);
 }
 
@@ -188,7 +188,7 @@ main {
 }
 hr {
   width: 100%;
-  margin: 1rem auto;
+  margin: 0 auto;
   border-color: rgba(255, 255, 255, 0.356);
 }
 .button-contenido-indice img {
@@ -209,9 +209,12 @@ hr {
   grid-template-columns: repeat(1, 200px 1fr);
 }
 .logo img {
-  width: 40%;
+  width: 80%;
   display: block;
   margin: 0 auto;
+  position: relative;
+  left: 1.5rem;
+  margin-right: 0;
 }
 .section-content .info {
   display: flex;
@@ -242,9 +245,6 @@ hr {
 .section-content:last-child {
   margin-bottom: 2rem;
 }
-.logo img {
-  width: 10rem;
-}
 
 .cero {
   color: #283895;
@@ -254,32 +254,43 @@ hr {
   color: #283895;
 }
 .tres {
-  color: #A684A3;
+  color: #a684a3;
 }
 .cuatro {
-  color: #636DB3;
+  color: #636db3;
 }
 .seis {
-  color: #38C0F0;
+  color: #38c0f0;
 }
 .siete {
-  color: #636DB3;
+  color: #636db3;
 }
 .ocho {
-  color: #38C0F0;
+  color: #38c0f0;
 }
 .nueve {
-  color: #B31E8C;
+  color: #b31e8c;
 }
 .diez {
-  color: #A684A3;
+  color: #a684a3;
 }
 .once {
-  color: #59BA48;
+  color: #59ba48;
 }
 .doce {
   color: #832671;
 }
 .trece {
-  color: #0BB6AC;
+  color: #0bb6ac;
+}
+
+.orange {
+  color: orange;
+}
+.section-content div:first-child {
+  position: relative;
+  bottom: 1rem;
+}
+b {
+  font-size: 1.2rem;
 }
