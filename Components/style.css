@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+/* Headers */
+/* 1 */
+.header-1 {
+  width: 100%;
+  height: auto;
+  text-align: right;
+}
+.header-1 p {
+  font-size: 1.2rem;
+  color: rgb(12, 12, 161);
+  line-height: 0;
+}
+.header-1 hr {
+  width: 15%;
+  margin: auto 0 auto auto;
+  height: 4px;
+  border: none;
+  background-color: orange;
+}
+/* 2 */
+.header-2 {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: 1fr;
+  text-align: right;
+}
+.header-2 .data-container p {
+  font-size: 1.2rem;
+  color: rgb(12, 12, 161);
+  line-height: 0;
+}
+.header-2 .data-container hr {
+  width: 50%;
+  margin: auto 0 auto auto;
+  height: 4px;
+  border: none;
+  background-color: orange;
+}
+.header-2 .hr-container hr {
+  width: 45%;
+  position: relative;
+  top: 10px;
+  margin: auto 0 auto auto;
+  height: 4px;
+  border: none;
+  background-color: orange;
+}
+.header-2 .text-container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
