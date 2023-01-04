@@ -98,6 +98,7 @@ main {
 }
 .logo-header img {
   width: 80%;
+  min-width: 100px;
 }
 .nav {
   display: flex;
@@ -162,6 +163,7 @@ main {
 }
 .header-buttons-container a {
   margin-right: 1rem;
+  min-width: 20px;
 }
 .header-buttons-container a:nth-child(2) img {
   width: 100%;
@@ -181,12 +183,13 @@ main {
 }
 /* Content items */
 .content-themes-item-container {
-  width: 100%;
+  width: auto;
   /* height: 210%; */
   display: flex;
 }
 .content-themes-item-container img {
   width: 15%;
+  min-width: 100px;
   position: relative;
   top: -45px;
 }
@@ -223,7 +226,7 @@ main {
 .font-size-1-3 {
   font-size: 1.3rem;
 }
-.content-hr{
+.content-hr {
   margin-bottom: 2rem;
 }
 /* Colors */
