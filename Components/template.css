@@ -6,6 +6,8 @@
   --header-height: 12%;
   --purple: #a683a3;
   --green: green;
+  --dark-purple: #ae2c96;
+  --dark-blue: #666cb4;
 }
 
 /* ********* Reset ********* */
@@ -191,7 +193,7 @@ main {
 }
 hr {
   width: 70%;
-  background-color: var(--purple);
+  background-color: var(--dark-blue);
   height: 4px;
   border: none;
 }
@@ -201,11 +203,20 @@ hr {
 .purple {
   color: var(--purple);
 }
+.dark-purple {
+  color: var(--dark-purple);
+}
 .blue {
   color: rgb(0, 0, 143);
 }
+.dark-blue {
+  color: var(--dark-blue);
+}
 .center {
   text-align: center;
+}
+.gray {
+  color: rgb(172, 172, 172);
 }
 .justify {
   text-align: justify;
@@ -215,4 +226,22 @@ hr {
   width: 60%;
   margin: 0 auto;
   margin-bottom: 2%;
+}
+.img-width {
+  width: 60%;
+  display: block;
+  margin: 0 auto 1% auto;
+}
+.column-responsive-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 100px;
+}
+.line-height-8 {
+  line-height: 0.8;
+}
+.hr-footer {
+  position: relative;
+  width: 20%;
+  margin: 1% auto 1% 0;
 }

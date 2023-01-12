@@ -14,12 +14,13 @@ html {
 .header-1 {
   width: 100%;
   height: auto;
-  text-align: right;
 }
 .header-1 p {
   font-size: 1.2rem;
   color: rgb(12, 12, 161);
-  line-height: 0;
+  text-align: right;
+
+  /* line-height: 0; */
 }
 .header-1 hr {
   width: 15%;
