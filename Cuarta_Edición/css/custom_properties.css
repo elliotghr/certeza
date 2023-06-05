@@ -1,0 +1,13 @@
+:root {
+    --first-color: #f2f3f8;
+    --font: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    --max-width: 1400px;
+    --header-height: 12%;
+    --purple: #a683a3;
+    --green: green;
+    --darkBlue: #293794;
+    --dark-purple: #ae2c96;
+    --dark-blue: #666cb4;
+    --blue-title: #144389;
+    --blue-p: #2363c2;
+  }
