@@ -1,13 +1,19 @@
 :root {
-    --first-color: #f2f3f8;
-    --font: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    --max-width: 1400px;
-    --header-height: 12%;
-    --purple: #a683a3;
-    --green: green;
-    --darkBlue: #293794;
-    --dark-purple: #ae2c96;
-    --dark-blue: #666cb4;
-    --blue-title: #144389;
-    --blue-p: #2363c2;
-  }
+  --first-color: #f2f3f8;
+  --font: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  --max-width: 1400px;
+  --header-height: 12%;
+  --purple: #a683a3;
+  --pink: #b31e8a;
+  --green: #5cb948;
+  --light-green: #8bc440;
+  --darkBlue: #293794;
+  --dark-purple: #ae2c96;
+  --dark-blue: #666cb4;
+  --blue-title: #144389;
+  --blue-p: #2363c2;
+  --blue-espejo: #99cdef;
+  --blue-comite: #2a3793;
+  --blue-certificacion: #3bbdee;
+  --blue-medicos: #4597b5;
+}
