@@ -6,6 +6,9 @@
 .margin-10 {
   margin-bottom: 10%;
 }
+.margin-1 {
+  margin-bottom: 1%;
+}
 .margin-2 {
   margin-bottom: 2%;
 }
@@ -18,24 +21,40 @@
 .margin-5 {
   margin-bottom: 5%;
 }
+.margin-10 {
+  margin-bottom: 10%;
+}
+.margin-15 {
+  margin-bottom: 15%;
+}
 .margin-auto {
   margin: 0 auto;
 }
 /* font sizes */
-.font-size-2 {
-  font-size: 2rem;
-}
+
 .font-size-1 {
   font-size: 1rem;
 }
 .font-size-1-1 {
   font-size: 1.1rem;
 }
+.font-size-1-2 {
+  font-size: 1.2rem;
+}
 .font-size-1-3 {
   font-size: 1.3rem;
 }
+.font-size-1-4 {
+  font-size: 1.4rem;
+}
 .font-size-1-6 {
   font-size: 1.6rem;
+}
+.font-size-2 {
+  font-size: 2rem;
+}
+.font-size-2-5 {
+  font-size: 2.5rem;
 }
 .content-hr {
   margin-bottom: 2rem;
@@ -82,6 +101,12 @@ hr {
 .bg-blue-espejo {
   background-color: var(--blue-espejo);
 }
+.blue-como-lo-se {
+  color: var(--blue-como-lo-se);
+}
+.bg-blue-como-lo-se {
+  background-color: var(--blue-como-lo-se);
+}
 .blue-certificacion {
   color: var(--blue-certificacion);
 }
@@ -93,6 +118,12 @@ hr {
 }
 .bg-blue-medicos {
   background-color: var(--blue-medicos);
+}
+.purple-entrevista {
+  color: var(--purple-entrevista);
+}
+.bg-purple-entrevista {
+  background-color: var(--purple-entrevista);
 }
 .dark-blue {
   color: var(--dark-blue);
