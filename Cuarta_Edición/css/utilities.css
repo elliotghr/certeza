@@ -21,6 +21,12 @@
 .margin-5 {
   margin-bottom: 5%;
 }
+.margin-6 {
+  margin-bottom: 6%;
+}
+.margin-7 {
+  margin-bottom: 7%;
+}
 .margin-10 {
   margin-bottom: 10%;
 }
@@ -31,7 +37,9 @@
   margin: 0 auto;
 }
 /* font sizes */
-
+.font-size-0-8 {
+  font-size: 0.8rem;
+}
 .font-size-1 {
   font-size: 1rem;
 }
@@ -119,11 +127,23 @@ hr {
 .bg-blue-medicos {
   background-color: var(--blue-medicos);
 }
+.blue-pizarron {
+  color: var(--blue-pizarron);
+}
+.bg-blue-pizarron {
+  background-color: var(--blue-pizarron);
+}
 .purple-entrevista {
   color: var(--purple-entrevista);
 }
 .bg-purple-entrevista {
   background-color: var(--purple-entrevista);
+}
+.purple-consulta {
+  color: var(--purple-consulta);
+}
+.bg-purple-consulta {
+  background-color: var(--purple-consulta);
 }
 .dark-blue {
   color: var(--dark-blue);
@@ -188,4 +208,7 @@ hr {
   width: 80%;
   margin: 0 auto 2rem auto;
   display: block;
+}
+.align-items-center{
+  align-items: center;
 }
